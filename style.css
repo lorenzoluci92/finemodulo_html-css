@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* ! Reset */
+body,
+html {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+img {
+  height: auto;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1rem;
+}
+h5 {
+  font-size: 0.8rem;
+}
+h6 {
+  font-size: 0.6rem;
+}
+a {
+  text-decoration: none;
+}
+/* GENERALI */
+* {
+  margin: 0;
+  padding: 0;
+}
+hr {
+  display: none;
+}
+html {
+  font-size: 60%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  background-image: url(./assets/img/sfondo.png);
+  padding: 15px;
+  background-position: center center;
+}
+
+/* HEADER */
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background: rgb(0, 160, 198);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 160, 198, 1) 0%,
+    rgba(3, 109, 134, 1) 68%
+  );
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.logo {
+  margin-bottom: 20px;
+}
+
+.lista-nav {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.8rem;
+  justify-content: center;
+  list-style: none;
+  margin-right: 10px;
+  padding: 2rem;
+}
+
+.lista-nav a {
+  text-decoration: none;
+  color: white;
+}
+.lista-nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  color: #ff2751;
+}
+
+/* MAIN */
+main {
+  background-color: #fff;
+  box-shadow: 0 3px 3px #444;
+  padding: 2em 1em;
+  margin-bottom:1.5em ;
+}
+
+section {
+  background-color: #e3e3e3;
+  padding: 2.5em 1em 1em;
+  margin-bottom: 2em;
+  position: relative;
+}
+section h1 {
+  font-weight: bold;
+  font-size: 2.8rem;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.7em;
+}
+.p-h1 {
+  color: #a0a0a0;
+}
+section strong {
+  color: #a02571;
+  font-weight: bold;
+}
+section p ul ol {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+section h3 {
+  font-size: 2rem;
+}
+section code {
+  color: #ff2751;
+}
+/* TABELLA */
+
+table {
+  margin-bottom: 2em;
+}
+caption {
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+thead tr {
+  background-color: #3f6bca;
+  color: #ffffff;
+}
+th,
+td {
+  padding: 10px 12px;
+  vertical-align: bottom;
+  text-align: center;
+}
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+  border-bottom: 2px solid #3f6bca;
+}
+
+.tool-link {
+  color: #ff2751;
+}
+
+/* IFRAME */
+iframe {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 2em;
+}
+
+/* NEWSLETTER */
+#iscriviti h2 {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  background-color: #ff2751;
+  position: absolute;
+  top: -0.5em;
+  left: 5%;
+  padding: 0 1em;
+  box-shadow: 1px 1px 2px #333;
+}
+#iscriviti button {
+  padding: 4px 7px;
+  background-color: #ff2751;
+  border: 0;
+  color: white;
+  font-weight: bold;
+}
+
+/* ASIDE */
+aside div {
+  background-color: #e3e3e3;
+  border: 1px solid #c3c3c3;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+aside div a{
+  color: #ff2751;
+}
+aside div p{
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.info{
+  color: #a0a0a0;
+}
+
+/* FOOTER */
+
+footer {
+  background: rgb(53,53,53);
+  background: linear-gradient(0deg, rgba(53,53,53,1) 0%, rgba(5,85,103,1) 68%);
+  box-shadow: 0 3px 3px #444;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5rem;
+}
+footer a{
+  color: #ff2751;
+}

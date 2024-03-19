@@ -1,0 +1,45 @@
+/* 1200 px */
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 100%;
+  }
+  body {
+    line-height: 2.4;
+  }
+
+  header,
+  main,
+  footer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* 768 px */
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+  body {
+    line-height: 2;
+  }
+
+  header {
+    padding: 1.3em;
+  }
+  table {
+    width: 70%;
+  }
+  input {
+    padding: 15px;
+  }
+  button {
+    padding: 15px 30px;
+  }
+  footer {
+    padding: 1em 12em;
+  }
+}
